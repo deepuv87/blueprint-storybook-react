@@ -1,0 +1,79 @@
+:root
+{
+  /*
+    color palette
+  */
+
+  /* primary colors */
+  --apricot: #FDA94E;
+  --ultramarine: #0F5EF0;
+  --midnight: #221F4D;
+  --coconut: #FFFFFF;
+
+  /* secondary blues */
+  --cobalt: #0B42A8;
+  --blueberry: #0C4BC0;
+  --cornflower: #B7CFFA;
+  --ice: #E7EFFD;
+
+  /* secondary greys */
+  --storm: #516F90;
+  --haze: #CBD6E2;
+  --mist: #EAF0F6;
+  --cloud: #F5F8FA;
+
+  /* tertiary colors */
+  --shamrock: #05AE77;
+  --clementine: #FF7B00;
+  --tomato: #E62325;
+  --brick: #A11214;
+
+
+  /*
+    abstracted utility variables
+  */
+
+  /* font families */
+  --font-family-default: 'Open Sans', sans-serif;
+  --font-family-icon: 'Font Awesome 5 Free'; /* only used for CSS pseudo elements */
+
+  /* font sizes */
+  --font-size-body: 12px;
+  --font-size-small: 10px;
+  --font-size-h1: 22px;
+  --font-size-h2: 15px;
+  --font-size-h3: 12px;
+  --font-size-display1: 22px;
+  --font-size-display2: 15px;
+  --font-size-display3: 12px;
+
+  /* font weights */
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  /* font colors */
+  --font-color-primary: var(--midnight);
+  --font-color-secondary: var(--storm);
+
+  /* accent colors */
+  --accent-color-primary: var(--ultramarine);
+  --accent-color-primary-hover: var(--blueberry);
+  --accent-color-secondary: var(--apricot);
+
+  /* link colors */
+  --link-color-primary: var(--ultramarine);
+
+  /* border colors */
+  --border-color-primary: var(--storm);
+  --border-color-secondary: var(--haze);
+
+  /* feedback colors */
+  --feedback-color-success: var(--shamrock);
+  --feedback-color-alert: var(--clementine);
+  --feedback-color-warning: var(--tomato);
+  --feedback-color-warning-hover: var(--brick);
+
+  /* icons */
+  --icon-caret-down: "\f0d7";
+}

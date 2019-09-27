@@ -1,0 +1,81 @@
+/* grid overrides */
+.container,
+.container-fluid
+{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.row
+{
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.col, 
+[class^="col-"]
+{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* links */
+a
+{
+  color: var(--accent-color-primary);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+a:hover
+{
+  color: var(--accent-color-primary);
+  text-decoration: underline;
+}
+
+.skip-link
+{
+  position: absolute;
+  top: -50px;
+  left: 0;
+  border: 0;
+  padding: 5px 10px;
+  background: var(--accent-color-primary);
+  color: var(--coconut);
+  transition: top 1s ease-out;
+  z-index: 100;
+}
+
+.skip-link:hover
+{
+  color: var(--coconut);
+}
+
+.skip-link:focus
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: top .5s ease-in;
+}
+
+/* focus styling */
+:focus:not([disabled]),
+button:focus:not([disabled])
+{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(183, 207, 250); /* use $cornflower variable with Sass */
+}
+
+/* page headers */
+.page-header
+{
+  margin-bottom: 40px;
+  border-bottom: 1px solid;
+  padding: 25px 0;
+  background: var(--cloud);
+}
+
+.page-title
+{
+  margin-bottom: 0;
+}
