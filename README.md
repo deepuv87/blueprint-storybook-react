@@ -1,5 +1,7 @@
 # blueprint-storybook-react
 
+Epsilon UX's React component library using Storybook.
+
 ## Dependencies
 - create-react-app
 - [storybook](https://storybook.js.org/)
