@@ -7,7 +7,7 @@ import dataHubLogo from '../../assets/logo-datahub.svg';
 import loyaltyLogo from '../../assets/logo-loyalty.svg';
 
 export default {
-	title: 'Top Navigation',
+	title: 'Primary Navigation',
 };
 const dataHubTabs = [
 	{

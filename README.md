@@ -2,6 +2,9 @@
 
 Epsilon UX's React component library using Storybook.
 
+## Components
+- Primary Navigation
+
 ## Dependencies
 - create-react-app
 - [storybook](https://storybook.js.org/)
