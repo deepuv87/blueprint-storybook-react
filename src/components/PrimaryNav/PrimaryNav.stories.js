@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 
-import TopNav from './TopNav';
+import PrimaryNav from './PrimaryNav';
 
 import dataHubLogo from '../../assets/logo-datahub.svg';
 import loyaltyLogo from '../../assets/logo-loyalty.svg';
@@ -40,7 +40,7 @@ const dataHubOptions = [
 		text: 'All Tenants'
 	}
 ];
-export const datahub = () => <TopNav tabs={dataHubTabs} selector={true} selectOptions={dataHubOptions} logo={dataHubLogo} />
+export const datahub = () => <PrimaryNav tabs={dataHubTabs} selector={true} selectOptions={dataHubOptions} logo={dataHubLogo} />
 
 datahub.story = {
 	name: 'Data Hub'
@@ -71,7 +71,7 @@ const loyaltyTabs = [
 	}
 ];
 
-export const loyalty = () => <TopNav tabs={loyaltyTabs} logo={loyaltyLogo} />
+export const loyalty = () => <PrimaryNav tabs={loyaltyTabs} logo={loyaltyLogo} />
 
 loyalty.story = {
 	name: 'Loyalty'

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './topNav.css';
+import './primaryNav.css';
 
-export default function TopNav(props) {
+export default function PrimaryNav(props) {
 	return (
 		<nav className="navbar navbar-expand-lg sticky-top">
 			<a href="" className="navbar-brand">
