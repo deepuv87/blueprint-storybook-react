@@ -11,6 +11,8 @@ Epsilon UX's React component library using Storybook.
 - Bootstrap
 - JQuery (For Bootstrap)
 
+Font Awesome and Open Sans also used for icons and fonts.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
