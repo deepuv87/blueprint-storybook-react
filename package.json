@@ -36,6 +36,7 @@
     "@fortawesome/fontawesome-free": "^5.11.2",
     "@storybook/addon-actions": "^5.2.1",
     "@storybook/addon-links": "^5.2.1",
+    "@storybook/addon-viewport": "^5.2.1",
     "@storybook/addons": "^5.2.1",
     "@storybook/react": "^5.2.1"
   }
