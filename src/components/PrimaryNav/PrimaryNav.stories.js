@@ -1,13 +1,16 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-
 import PrimaryNav from './PrimaryNav';
-
 import dataHubLogo from '../../assets/logo-datahub.svg';
 import loyaltyLogo from '../../assets/logo-loyalty.svg';
+import notes from './notes.md';
 
 export default {
 	title: 'Primary Navigation',
+	component: PrimaryNav,
+	parameters: {
+		notes: { markdown: notes }
+	}
 };
 const dataHubTabs = [
 	{
@@ -40,12 +43,11 @@ const dataHubOptions = [
 		text: 'All Tenants'
 	}
 ];
-export const datahub = () => <PrimaryNav tabs={dataHubTabs} selector={true} selectOptions={dataHubOptions} logo={dataHubLogo} />
+export const datahub = () => <PrimaryNav tabs={dataHubTabs} selector={true} selectOptions={dataHubOptions} logo={dataHubLogo} />;
 
 datahub.story = {
 	name: 'Data Hub'
 }
-
 
 const loyaltyTabs = [
 	{
